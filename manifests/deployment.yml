@@ -16,4 +16,4 @@ spec:
         - name: tony2039 
           image: tony0416.azurecr.io/tony2039
           ports:
-          - containerPort: 8080
+          - containerPort: 80
