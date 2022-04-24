@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: tony0416.azurecr.io/0424/ning
+          image: tony0416.azurecr.io/0426/ning
           ports:
             - containerPort: 80
 ---
