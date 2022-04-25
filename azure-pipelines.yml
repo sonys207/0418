@@ -42,7 +42,7 @@ stages:
           $(tag)
 
     - upload: kube-manifests
-      artifact: kube-manifests
+      artifact: kube-manifests-520
 
 - stage: Deploy
   displayName: Deploy stage
@@ -70,7 +70,7 @@ stages:
             inputs:
               action: deploy
               manifests: |
-                $(Pipeline.Workspace)/kube-manifests/01-Deployment-and-LoadBalancer-Service.yml
+                $(Pipeline.Workspace)/kube-manifests-520/01-Deployment-and-LoadBalancer-Service.yml
               imagePullSecrets: |
                 $(imagePullSecret)
               containers: |
