@@ -6,10 +6,8 @@
 # Pipeline Hierarchial Flow: Stages -> Stage -> Jobs -> Job -> Steps -> Task1, Task2, Task3  
 
 trigger:
-- master
+- main
 
-resources:
-- repo: self
 
 # Variables
 variables:
