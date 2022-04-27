@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app1-nginx
-          image: tony0416.azurecr.io/levelone
+          image: tony0416.azurecr.io/custom2aksnginxapp1
           ports:
             - containerPort: 80
 ---
